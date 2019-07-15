@@ -41,7 +41,7 @@ Decision Tree or other. Features should be scaled to zero mean and unit variance
 2- These were combined into the a single feature vector in the extract features function.
 3- Scaling was performed with the StandardScaler function available in the sklearn library.
 4- Linear Support Vector Classifier was used as it gave us the best accuracy. I have also tried
-the RandomForest classifier but abondoned it due to less accuracy. Non Linear SVC was not tried
+the RandomForest classifier but abandoned it due to less accuracy. Non Linear SVC was not tried
 it could have given better accuracy but it would have also increased the classification time. 
 LinearSVC was sufficiently accurate and we were getting accuracy of 99.1% so it was used.
 The paramters used were: (C=1.0,  penalty='l2', loss='hinge') which were found to be sufficient after several experiments.
